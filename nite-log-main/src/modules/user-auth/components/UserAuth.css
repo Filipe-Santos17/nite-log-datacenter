@@ -1,0 +1,14 @@
+.user-auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.task-description {
+    margin-top: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}

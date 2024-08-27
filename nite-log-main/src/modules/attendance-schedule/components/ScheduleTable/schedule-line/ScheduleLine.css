@@ -1,0 +1,33 @@
+.schedule-line {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16px repeat(3, 1fr);
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.schedule-line > div {
+    align-self: center;
+}
+
+.remove-icon {
+    width: 16px;
+    place-self: center;
+}
+
+.schedule-line__day {
+    grid-column: 2;
+    font-size: 13px;
+    place-self: center;
+}
+
+.schedule-line__from {
+    grid-column: 3;
+    font-size: 13px;
+    place-self: center;
+}
+.schedule-line__to {
+    grid-column: 4;
+    font-size: 13px;
+    place-self: center;
+}

@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    background-color: rgba(12, 9, 28, 0.7);
+    color: var(--text-color);
+}
+
+.page-title {
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.user-icon {
+    width: 32px;
+}
+
+.user-icon:hover {
+    cursor: pointer;
+}

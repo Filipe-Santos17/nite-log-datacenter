@@ -1,0 +1,21 @@
+.toggle-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.active {
+    text-decoration: var(--text-color) underline;
+    font-weight: bold;
+}
+

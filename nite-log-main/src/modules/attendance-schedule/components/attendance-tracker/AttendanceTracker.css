@@ -1,0 +1,20 @@
+.entry-okay {
+    color: var(--text-color);
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.green-check {
+    width: 32px;
+    margin-bottom: 16px;
+}
+
+.active-code-wrong-title {
+    color: var(--text-color);
+    font-size: 22px;
+}
+
+.active-code-wrong-text {
+    color: var(--text-color);
+    font-size: 16px;
+}

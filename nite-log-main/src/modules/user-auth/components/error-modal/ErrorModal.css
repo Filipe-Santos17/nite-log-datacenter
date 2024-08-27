@@ -1,0 +1,41 @@
+.error-modal > div {
+    background-color: #F5F5F5;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    /*color: var(--text-color);*/
+    color: var(--bg-main);
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+
+.modal > p {
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.btn-area-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--bg-main);
+}
